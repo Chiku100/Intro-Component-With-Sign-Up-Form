@@ -46,9 +46,6 @@ function addError4() {
     document.querySelector(".def4").classList.remove("error");
 
 }
-function removeError() {
-    document.querySelectorAll("def").classList.add("error");
-}
 
 function isValid(email) {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
