@@ -24,25 +24,25 @@
       </div>
       <form name="form1" id="form" action="">
         <div class="inputs">
-          <input id="firstname" name="firstame" type="text" placeholder="First Name">
+          <input id="firstname" name="firstame" type="text" placeholder="First Name" oninput=testLength(this.value)>
 
           <div class="error def">
             <img class="error-icon " src="./images/icon-error.svg" alt="icon-error">
             <em>First Name cannot be empty</em>
           </div>
-          <input id="lastname" name="lname " type="text" placeholder="Last Name">
+          <input id="lastname" name="lname " type="text" placeholder="Last Name" oninput=testLength2(this.value)>
 
           <div class="error def2">
             <img class="error-icon" src="./images/icon-error.svg" alt="icon-error">
             <em>Last Name cannot be empty</em>
           </div>
-          <input id="email" name="email" type="text" placeholder="Email Address">
+          <input id="email" name="email" type="text" placeholder="Email Address" oninput=testLength3(this.value)>
 
           <div class="error def3">
             <img class="error-icon" src="./images/icon-error.svg" alt="icon-error">
             <em>Looks like this is not an email</em>
           </div>
-          <input id="password" name="password" type="text" placeholder="Password">
+          <input id="password" name="password" type="text" placeholder="Password" oninput=testLength4(this.value)>
 
           <div class="error def4">
             <img class="error-icon" src="./images/icon-error.svg" alt="icon-error">
